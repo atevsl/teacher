@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 24px;
+}
+/* Навигация */
+.navigation {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.navigation:hover,
+.navigation:focus {
+  color: aqua;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.list {
+  list-style: none;
+}
+
+/* Заглавие */
+.poem {
+  font-family: "Marck Script", cursive;
+}
