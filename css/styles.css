@@ -1,24 +1,30 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 24px;
 }
 /* Навигация */
 .navigation {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .navigation:hover,
 .navigation:focus {
-  color: aqua;
+  color: rgb(4, 246, 246);
   background-color: rgba(0, 0, 0, 0.5);
 }
 .list {
   list-style: none;
 }
-
+.name {
+  text-shadow: 1px 3px 5px rgb(4, 246, 246), 5px 7px 9px rgb(157, 68, 205);
+}
 /* Заглавие */
 .poem {
   font-family: "Marck Script", cursive;
+}
+.poem-cursiv {
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgb(4, 246, 246), 2px 3px 4px rgb(157, 68, 205);
 }
