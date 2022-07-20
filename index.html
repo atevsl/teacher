@@ -17,7 +17,7 @@
   <body>
     <header>
       <!-- навігація -->
-      <nav>
+      <nav class="nav-decor">
         <ul class="list">
           <li>
             <a class="navigation" href="./index.html"
@@ -35,7 +35,11 @@
           <li>
             <a class="navigation" href="./problem.html">Педагогічна проблема</a>
           </li>
-          <li><a class="navigation" href="#hoby">Мої роботи</a></li>
+          <li>
+            <a class="navigation" href="./game.html"
+              >Сучасним дітям - сучасні підходи</a
+            >
+          </li>
         </ul>
         <a class="navigation" href="mailto:valyan76@ukr.net"
           >&#128231; пошта: valyan76@ukr.net</a
@@ -44,49 +48,57 @@
           >&phone; телефон: +380677324084</a
         >
       </nav>
-
-      <img src="./img/mainphoto.jpg" alt="фото вчителя" width="600" />
     </header>
-    <main>
-      <h1 class="name">Нечахіна Валентина Василівна</h1>
-      <h2>Вчитель початкових класів вищої категорії, старший вчитель.</h2>
+    <main class="index-decor">
+      <!-- вчитель -->
+      <section>
+        <img src="./img/mainphoto.jpg" alt="фото вчителя" width="600" />
+        <h1 class="name">Нечахіна Валентина Василівна</h1>
+        <h2>Вчитель початкових класів вищої категорії, старший вчитель.</h2>
+        <p class="poem">
+          Я-вічна школярка, жінка і
+          <a class="poem-cursiv" href="#september">мати</a> ... <br />
+          У школі
+          <a class="poem-cursiv" href="#children"
+            >я-вчитель, наставник і друг... <br />
+          </a>
+          Люблю <a class="poem-cursiv" href="#hoby">вишивати</a> і
+          бешкетувати...
+          <br />
+          І прагну зробити все кращим навкруг!
+        </p>
+      </section>
 
-      <p class="poem">
-        Я-вічна школярка, жінка і
-        <a class="poem-cursiv" href="#september">мати</a> ... <br />
-        У школі
-        <a class="poem-cursiv" href="#children"
-          >я-вчитель, наставник і друг... <br />
-        </a>
-        Люблю <a class="poem-cursiv" href="#hoby">вишивати</a> і бешкетувати...
-        <br />
-        І прагну зробити все кращим навкруг!
-      </p>
       <!-- мати -->
-      <p id="september">Перше вересня донечки.</p>
-      <iframe
-        src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FDumskayaTV%2Fvideos%2F659228737906624%2F&show_text=false&width=560&t=0"
-        width="560"
-        height="314"
-        style="border: none; overflow: hidden"
-        scrolling="no"
-        frameborder="0"
-        allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        allowfullscreen="true"
-      ></iframe>
+      <section>
+        <h2 id="september">Перше вересня донечки.</h2>
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FDumskayaTV%2Fvideos%2F659228737906624%2F&show_text=false&width=560&t=0"
+          width="560"
+          height="314"
+          style="border: none; overflow: hidden"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowfullscreen="true"
+        ></iframe>
+      </section>
 
       <!-- фото -->
-      <p id="children">Робота з дітьми</p>
-      <img src="./img/school.jpeg" width="600" alt="вчителька з дітьми" />
-      <img
-        src="./img/school1.jpeg"
-        width="600"
-        alt="вчителька показує сердечко"
-      />
+      <section>
+        <h2 id="children">Робота з дітьми</h2>
+        <img src="./img/school.jpeg" width="600" alt="вчителька з дітьми" />
+        <img
+          src="./img/school1.jpeg"
+          width="600"
+          alt="вчителька показує сердечко"
+        />
+      </section>
+
       <!-- Мої роботи -->
       <section>
-        <p id="hoby">Мої роботи</p>
+        <h2 id="hoby">Мої роботи</h2>
         <ul class="list">
           <li>
             <img src="./img/canvas.jpg" alt="приклади робіт" width="400" />
