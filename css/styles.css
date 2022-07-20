@@ -4,9 +4,7 @@ body {
   font-size: 24px;
 }
 /* Навигация */
-.nav-decor {
-  background-color: rgb(152, 255, 255);
-}
+
 .navigation {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -32,7 +30,3 @@ body {
   text-shadow: 0 1px 2px rgb(4, 246, 246), 2px 3px 4px rgb(157, 68, 205);
 }
 /* index.html */
-
-.index-decor {
-  background-color: rgb(200, 255, 255);
-}
