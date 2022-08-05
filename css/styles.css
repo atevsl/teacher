@@ -14,9 +14,9 @@ body {
 }
 /* Навигация */
 .nav {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin: auto;
-  background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+  background: linear-gradient(to top, #ffffff, #6dd5fa, #6dd5fa, #ffffff);
 }
 .nav-wrap {
   display: flex;
@@ -76,7 +76,7 @@ body {
 }
 /* <!-- мати -->  */
 .section-back {
-  background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+  background: linear-gradient(to top, #ffffff, #6dd5fa, #6dd5fa, #ffffff);
 }
 
 /* <!-- фото --> */
@@ -129,4 +129,21 @@ body {
   align-items: center;
   justify-content: space-evenly;
   gap: 20px;
+}
+/* <!-- Вибір професії -- */
+.prof-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* <!-- Педагогічна проблема --> */
+.prob-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.problem-list {
+  list-style: none;
+  display: flex;
 }
