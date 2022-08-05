@@ -1,32 +1,132 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: rgb(0, 0, 0);
   font-size: 24px;
 }
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /* Навигация */
+.nav {
+  max-width: 1600px;
+  margin: auto;
+  background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+}
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+.nav-list {
+  display: flex;
+}
 
 .navigation {
+  width: 420px;
+  display: inline-block;
+  padding: 5px;
   text-decoration: none;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .navigation:hover,
 .navigation:focus {
-  color: rgb(4, 246, 246);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(76, 173, 214, 0.5);
 }
 .list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   list-style: none;
 }
 .name {
-  text-shadow: 1px 3px 5px rgb(4, 246, 246), 5px 7px 9px rgb(157, 68, 205);
+  text-shadow: 1px 3px 5px rgb(4, 246, 246), 2px 5px 7px rgb(157, 68, 205);
+  text-align: center;
+}
+.name-text {
+  font-size: 24px;
 }
 /* вірш */
 .poem {
   font-family: "Marck Script", cursive;
+  font-size: 30px;
 }
+
 .poem-cursiv {
   text-decoration: none;
-  text-shadow: 0 1px 2px rgb(4, 246, 246), 2px 3px 4px rgb(157, 68, 205);
+  color: black;
+  text-shadow: 1px 2px 3px rgb(100, 216, 239);
 }
-/* index.html */
+.poem-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url(../img/wrap.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* <!-- мати -->  */
+.section-back {
+  background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+}
+
+/* <!-- фото --> */
+.photo {
+  display: flex;
+  gap: 15px;
+}
+/* <!-- Мої роботи --> */
+.hoby {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.hoby li {
+  /* width: 400px; */
+  height: 500px;
+  /* margin-right: 10px; */
+}
+.hoby-img {
+  width: 100%;
+}
+/* <!-- Професійна компетентність вчителя --> */
+.comp-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.ful-certif {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+.ful-certif img {
+  display: block;
+  margin: auto;
+}
+.ful-certif li {
+  border-bottom: 1px solid rgb(75, 193, 216);
+  margin-bottom: 25px;
+}
+/* Сучасні діти*/
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
