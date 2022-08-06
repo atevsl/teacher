@@ -6,15 +6,24 @@ body {
   font-family: "Roboto", sans-serif;
   color: rgb(0, 0, 0);
   font-size: 24px;
+  margin: 0;
 }
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 /* Навигация */
 .nav {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+
   background: linear-gradient(to top, #ffffff, #6dd5fa, #6dd5fa, #ffffff);
+}
+.pane {
+  padding-top: 120px;
 }
 .nav-wrap {
   display: flex;
