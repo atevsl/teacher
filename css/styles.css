@@ -7,6 +7,7 @@ body {
   color: rgb(0, 0, 0);
   font-size: 24px;
   margin: 0;
+  padding-top: 120px;
 }
 .container {
   width: 1200px;
@@ -17,14 +18,14 @@ body {
 /* Навигация */
 .nav {
   position: fixed;
+  top: 0;
+  left: 0;
   height: 120px;
   width: 100%;
 
-  background: linear-gradient(to top, #ffffff, #6dd5fa, #6dd5fa, #ffffff);
+  background: linear-gradient(to top, #ffffff, #fa956d, #faa86d, #ffffff);
 }
-.pane {
-  padding-top: 120px;
-}
+
 .nav-wrap {
   display: flex;
   justify-content: space-between;
@@ -46,6 +47,22 @@ body {
 .navigation:hover,
 .navigation:focus {
   background-color: rgba(76, 173, 214, 0.5);
+}
+.sun {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .list {
   display: flex;
@@ -108,6 +125,9 @@ body {
 .hoby-img {
   display: block;
   width: 100%;
+}
+.hoby-img:hover {
+  transform: scale(2, 2);
 }
 /* <!-- Професійна компетентність вчителя --> */
 .comp-wrap {
