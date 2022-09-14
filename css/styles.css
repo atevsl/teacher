@@ -23,7 +23,7 @@ body {
   height: 120px;
   width: 100%;
 
-  background: linear-gradient(to top, #ffffff, #fa956d, #faa86d, #ffffff);
+  background: radial-gradient(circle, rgba(68,221,245,1) 3%, rgba(70,252,249,0.48028718323266806) 64%);
 }
 
 .nav-wrap {
